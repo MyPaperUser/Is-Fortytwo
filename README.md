@@ -7,6 +7,7 @@ Why? Cause 42 is the answer to everything!
 * Rich button animations
 * Dark AND Light-Mode
 * Overview about testing results
+* Resizable user interface
 
 
 More features coming soon...
