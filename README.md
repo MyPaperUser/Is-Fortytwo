@@ -1,5 +1,5 @@
 # Is Fortytwo
-...is a highly complex application to find out if a number is equal to 42.
+...is a highly complex open-source application to find out if a number is equal to 42.
 Why? Cause 42 is the answer to everything!
 
 ## Features
