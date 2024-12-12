@@ -23,11 +23,11 @@ public partial class MainWindow : Window
             GrdResult.IsVisible = true;
             GrdEdit.IsVisible = false;
         try{
-            if(Convert.ToInt32(TbNumber.Text) == 42){
+            if(Convert.ToInt64(TbNumber.Text) == 42){
             
-                LblResult.Content = "Congratulations!\nYour number is equal to 42!";
+                LblResult.Content = "Congratulations!\nYour number is equal to 42";
             } else {
-                LblResult.Content = "Sadly, your number is NOT equal to 42! :(";
+                LblResult.Content = "Sadly, your number is NOT equal to 42 :(";
             }
         } catch {
             LblResult.Content = "You did it wrong!\nPlease enter a NUMBER, nothing else...";
