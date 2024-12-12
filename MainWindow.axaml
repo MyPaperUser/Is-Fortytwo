@@ -2,18 +2,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" Width="350" Height="150" MinHeight="150" MinWidth="350"
+        mc:Ignorable="d" Width="400" Height="150" MinHeight="180" MinWidth="400"
         x:Class="is_fortytwo.MainWindow"
         Title="is_fortytwo">
     <Grid>
         <Grid x:Name="GrdEdit" IsVisible="True">
-                <Label Margin="10" Content="Enter a number:" VerticalAlignment="Top"/>
+                <Label Margin="10" Content="Enter a number to check if it is equal to 42 or not:" VerticalAlignment="Top"/>
                 <TextBox Margin="10,0,10,10" x:Name="TbNumber" VerticalAlignment="Center"/>
                 <Button Margin="10,0,10,10" Content="Check!" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" x:Name="BtnCheck" Click="Button_Click" />
         </Grid>
         
         <Grid x:Name="GrdResult" IsVisible="False">
             <Label Content="Your number is equal to 42!" HorizontalAlignment="Center" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="LblResult" />
+            <Button Margin="10,0,10,50" Content="Retry" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" x:Name="BtnRestart" Click="Button_Restart_Click" />
             <Button Margin="10,0,10,10" Content="Exit" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" x:Name="BtnExit" Click="Button_Exit_Click" />
         </Grid>
     </Grid>
